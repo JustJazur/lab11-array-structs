@@ -1,0 +1,8 @@
+CoRe Data Analyzer - Lab 11 prototype
+1. Display Data Frame
+2. Exit application
+Enter option number: 1
+ID      State             County                     Dem Votes     Rep Votes       Dem Share       Rep Share
+151     FL                Gadsden County                 22510          6811           69.58           31.67
+46      PA                Montour County                  8023          3364           42.38           56.98
+Displayed 2 observation(s).

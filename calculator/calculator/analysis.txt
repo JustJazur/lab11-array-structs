@@ -1,0 +1,24 @@
+Which files contain the declaration and definition of computeAdd?
+//The files that contain that information are mathOps.cpp and mathOps.h
+
+After selecting Addition, which function calls read the operands, perform the operation, display the result, and pause?
+// getValues reads the operands, computeAdd does the additions, inside computeAdd, displayResult will obviosuly display
+// the oprand and result and inside the same file pressAnyKey will pause until we press enter.
+
+Why must the build command include three .cpp files instead of only main.cpp?
+//It is basically a team project and each team member is crucial to give the final report. You cannot run the
+// program without all of them being together.
+
+What does the include guard in utils.h prevent?
+//It makes it so it wont be read more than once and avoids duplicates and compilation errors.
+
+What do -std=c++17, -Wall, -Wextra, -pedantic, and -o control? Which part of the command changes when the program has only one .cpp file?
+//-std=c++17 selects the C++17 language standard.
+//-Wall enables a broad set of compiler warnings.
+//-Wextra enables additional warnings.
+//-pedantic warns about code that does not strictly follow the selected C++ standard.
+//-o BasicCalculator sets the name of the output executable.
+//
+// if the program has only one .cpp file, the source-file list changes: include that one file instead of all three.
+//For example, replace main.cpp utils.cpp mathOps.cpp with main.cpp; the other options can stay the same.
+
